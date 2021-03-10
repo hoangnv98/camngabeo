@@ -1,4 +1,4 @@
-import { React } from "react";
+import React from "react";
 
 export default function User() {
   return <h1>My name is My</h1>;
