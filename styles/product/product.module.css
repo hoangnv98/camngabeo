@@ -1,0 +1,16 @@
+.titleSetting {
+  color: "#f10232";
+  text-align: center;
+  text-transform: uppercase;
+}
+.button {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border-color: "#fff";
+  border: 1px solid #ffffff;
+  /* box-sizing: border-box; */
+  width: 100px;
+  height: 30px;
+  align-self: center;
+}
