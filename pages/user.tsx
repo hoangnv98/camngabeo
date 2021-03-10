@@ -1,5 +1,13 @@
-import React from "react";
+import React , {useState}from "react";
 
 export default function User() {
-  return <h1>My name is My</h1>;
+  const [name, setName] = useState('Tiki');
+  return (
+    <form action="sds">
+      <input type="text" name="name" value={name} onChange={(e) => {
+       setName(e.target.value);
+      }}/>
+      <button className="Object"> My name is {name}</button>
+    </form>
+  );
 }
