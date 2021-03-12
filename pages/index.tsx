@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import User from '../pages/users/index'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -9,14 +8,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <User></User>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">G.js!</a>
         </h1>
-        <User name="sarat" title={"HFI"}></User>
         <p className={styles.description}>
           Get started by editing
-          <code className={styles.code}>pages/index.js</code>
+<code className={styles.code}>pages/index.js</code>
         </p>
       </main>
     </div>
