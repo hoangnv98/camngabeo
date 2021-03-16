@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -16,6 +15,3 @@ export default function Home() {
     </div>
   );
 }
-// ví dụ thế
-// ừm
-// code app thì cũng dùng trình đuyệt này
