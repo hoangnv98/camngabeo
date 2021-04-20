@@ -6,5 +6,5 @@ export default function User() {
     <link rel="icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/global.css" />
   </Head>;
-  return <h1> Bùi Thị Hồng Hạnh</h1>;
+  return <h1>Sai Gon Phantom</h1>;
 }
