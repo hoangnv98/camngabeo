@@ -1,0 +1,45 @@
+
+.Nav{
+    background: black;
+    color:white;
+    margin:0px;
+    padding:10px;
+    height: fit-content;
+  }
+  .Navitem{
+    margin:20px;
+    padding:20px;
+    color: white;
+  }
+  .Main{
+    display: flex;
+    flex-direction: row;
+   height:90vh;
+   justify-content: center
+  }
+  
+  .Article{
+    background-color: blue;
+    color:white;
+  width:100%;
+  p{
+  padding: 10px;
+  }
+    .readMore{
+      padding: 10px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 22px;
+  
+    }
+  }
+  
+  .Footer{
+    background-color: black;
+    height:30px;
+    padding:20px 0px;
+  .FooterCopyRight{
+    color:white;
+    
+  }
+  }

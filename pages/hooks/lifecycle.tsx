@@ -1,17 +1,28 @@
-import React, { useState } from "react";
-
-type StateStype = {
-  counter: Number;
-};
-function LifeCycle() {
-  const [com, setCom] = useState(222);
+import Link from "next/link";
+import Image from "next/image";
+import React from "react";
+import Header from "next/head";
+export default function Home() {
   return (
-    <div className="container">
-      <h1>Play Life Cycle</h1>
-      <h2>{com}</h2>
-      <button onClick={() => setCom((prev) => prev + 1)}>Counted Add</button>
+    <div>
+      <Header>
+        <title>Ta chưa bao giờ</title>
+      </Header>
+      <p>This is our homepage</p>
+      <div>
+        <a href="/blog">Blog</a>
+      </div>
+      <div>
+        <Link href="/about">
+          <a>About us</a>
+        </Link>
+      </div>
+      <Image
+        src="/static/nextjs.png"
+        alt="Next.js logo"
+        width={200}
+        height={160}
+      />
     </div>
   );
 }
-
-export default LifeCycle;
